@@ -1,6 +1,12 @@
 package demo;
 
 public class Book {
+
+    private int id;
+    private String name;
+    private int price;
+    private int stock;
+
     public Book() {
     }
 
@@ -35,9 +41,4 @@ public class Book {
     public void setStock(int stock) {
         this.stock = stock;
     }
-
-    private int id;
-    private String name;
-    private int price;
-    private int stock;
 }

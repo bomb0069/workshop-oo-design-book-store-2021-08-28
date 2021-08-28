@@ -5,6 +5,9 @@ import java.util.List;
 public class Basket {
 
     int id;
+    List<Item> items;
+    double discount;
+    double netTotal;
 
     public int getId() {
         return id;
@@ -38,7 +41,4 @@ public class Basket {
         this.netTotal = netTotal;
     }
 
-    List<Item> items;
-    double discount;
-    double netTotal;
 }

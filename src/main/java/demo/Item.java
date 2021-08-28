@@ -2,6 +2,7 @@ package demo;
 
 public class Item {
     Book book;
+    int quantity;
 
     public Book getBook() {
         return book;
@@ -18,6 +19,4 @@ public class Item {
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
-
-    int quantity;
 }
